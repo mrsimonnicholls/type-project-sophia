@@ -9,6 +9,7 @@
 
 body {
   margin: 0;
+  /* hide horizontal scroll bars... */
   overflow-x: hidden;
 }
 
