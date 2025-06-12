@@ -1,39 +1,81 @@
- body {
-      margin: 0;
-      padding: 0;
-      background: black;
-      display: flex;
-      justify-content: center;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    .poster {
-      position: relativeabsolute0px;
-      height: 1414px;
-    }
+:root {
+  --poster-height: calc((var(--view-width) / 2480) * 3508);
+}
 
-    .background {
-      width: 100%;
-      height: auto;
-    }
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 
-  .letter {
+.poster {
+  position: relative;
+  background-size: cover;
+  background-image: url(assets/background-no-text.jpg);
+  width: var(--view-width);
+  height: var(--poster-height);
+}
+
+.letter {
   position: absolute;
-  width: 100%; /* Or whatever looks good visually */
-  height: auto;
-  z-index: 10;
+  height:
 }
 
 
-#letter1  { top:100px; left: 300px; }
-#letter2  { top: 200px; left: 360px; }
-#letter3  { top: 200px; left: 420px; }
+#letter1 {
+  top: 100px;
+  left: 500px;
+}
 
-#letter4  { top: 280px; left: 310px; }
-#letter5  { top: 280px; left: 370px; }
+#letter2 {
+  top: 200px;
+  left: 360px;
+}
 
-#letter6  { top: 360px; left: 300px; }
-#letter7  { top: 360px; left: 360px; }
-#letter8  { top: 360px; left: 420px; }
-#letter9  { top: 360px; left: 480px; }
-#letter10 { top: 360px; left: 540px; }
-#letter11 { top: 360px; left: 600px; }
+#letter3 {
+  top: 200px;
+  left: 420px;
+}
+
+#letter4 {
+  top: 280px;
+  left: 310px;
+}
+
+#letter5 {
+  top: 280px;
+  left: 370px;
+}
+
+#letter6 {
+  top: 360px;
+  left: 300px;
+}
+
+#letter7 {
+  top: 360px;
+  left: 360px;
+}
+
+#letter8 {
+  top: 360px;
+  left: 420px;
+}
+
+#letter9 {
+  top: 360px;
+  left: 480px;
+}
+
+#letter10 {
+  top: 360px;
+  left: 540px;
+}
+
+#letter11 {
+  top: 360px;
+  left: 600px;
+}
