@@ -3,6 +3,7 @@
 }
 
 :root {
+  /* :root will have an additional --view-width variable provided via JS */
   --poster-height: calc((var(--view-width) / 2480) * 3508);
 }
 
