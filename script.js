@@ -1,4 +1,5 @@
 function setViewWidth() {
+  // Create a CSS variable called --view-width and add it :root
   document.documentElement.style.setProperty('--view-width', `${window.innerWidth}px`);
 }
 
